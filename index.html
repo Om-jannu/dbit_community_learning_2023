@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- color change  -->
+    <button id="btn">change color</button>
+    <p id="ptag">this is sample text</p>
+
+    <a href="calculator.html">calulator</a>
+    <br>
+    <a href="json.html">json</a>
+    <br>
+    <a href="arrays.html">arrays</a>
+    <br>
+    <a href="qrGen.html">Qr generator app</a>
+
+
+    <script>
+        let btn = document.getElementById("btn");
+        let ptag = document.getElementById("ptag");
+
+        btn.addEventListener("click", changeColor);
+        function changeColor() {
+            btn.style.color = "yellow";
+            btn.style.backgroundColor = "black";
+            ptag.style.backgroundColor = "red";
+        }
+    </script>
+
+</body>
+
+</html>

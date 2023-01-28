@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="qrGen.css">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+    <div id="wrapper" class="wrapper">
+        <header>
+            <h1>QR Code Generator</h1>
+            <p style="opacity: 1;">Paste Your url or text here</p>
+        </header>
+        <main>
+            <div class="form">
+                <input id="user_input" type="text" placeholder="Enter your text or url">
+                <div class="user_pixel_input">
+                    <input id="user_input1" type="number" placeholder="0px" min="15" max="200">
+                    <input id="user_input2" type="number" placeholder="0px" min="15" max="200">
+                </div>
+                <!-- <input type="number" placeholder="px"> -->
+                <button type="submit" id="btn">Generate QR Code</button>
+            </div>
+            <div class="qr_code">
+                <img id="qrImg" src="" alt="generated qr code">
+            </div>
+        </main>
+    </div>
+    <script src="./qrGen.js"></script>
+</body>
+
+</html>
