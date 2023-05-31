@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Component Library</title>
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>This message is enclosed inside "p" tag</p>
+
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.youtube.com/">youtube</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur <span style="color:red;">"this is span element"</span> adipisicing elit.
+    </p>
+
+    <ul>
+        this is an "un-ordered list"
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol>
+        this is an example of "ordered list"
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <div>
+        <p>This is an example of image tags👇</p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M9AsZ7Sm6Qq-LXpY92Tt2AHaEK%26pid%3DApi&f=1&ipt=7739281cf7fe493660dd086e6df88afa387088143689252fa0007962424e3bd7&ipo=images"
+            alt="forest" width="500" height="300">
+
+        <img src="/horse image.jpg" alt="hore image" width="500" height="300">
+    </div>
+
+    <div>
+        <p>This is an example of iframe tag👇</p>
+        <iframe src="https://omclp.netlify.app/" width="400" height="300"></iframe>
+        <iframe src="https://dagrs.berkeley.edu/sites/default/files/2020-01/sample.pdf" frameborder="0" width="400"
+            height="300"></iframe>
+    </div>
+
+    <div>
+        <video autoplay loop muted controls="controls" width="400" height="300">
+            <source src="/Pexels Videos 1578318.mp4" type="video/mp4">
+            Your browser does not support the HTML5 Video element.
+        </video>
+        <video autoplay loop controls muted="controls" width="400" height="300">
+            <source src="/video.mp4" type="video/mp4">
+            Your browser does not support the HTML5 Video element.
+        </video>
+    </div>
+
+    <div>
+        <audio controls>
+            <source src="/tech-house-vibes.mp3" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+        <audio controls>
+            <source src="/mixkit-hip-hop-02-738.mp3" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+
+    <div>
+        <p>👇meter tags are inline tags👇</p>
+        <meter value="0.8">80%</meter>
+        <meter value="2" min="0" max="10">6 out of 10</meter>
+    </div>
+
+    <div>
+        <p>👇button tags are inline tags👇</p>
+        <button>submit</button>
+        <button>send</button>
+    </div>
+
+    <div>
+        <p>👇input tags are inline elements👇</p>
+        <input type="radio" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="female">Female</label>
+        <input type="text" name="first-name" placeholder="text">
+        <input name="vs-code" type="checkbox">
+        <label for="">vs code</label>
+        <input name="android-studio" type="checkbox">
+        <label for="">android studio</label>
+        <input type="color">
+        <input type="date" name="date">
+        <input type="email" name="email" placeholder="email">
+        <input type="file" name="file">
+        <input type="number" name="number" min="1" max="10" placeholder="number">
+        <input type="password" name="password" placeholder="password">
+        <input type="range" name="range">
+        <input type="search" name="search" placeholder="search">
+        <input type="time" name="time">
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>aniket</td>
+                <td>aniket@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <table border="1">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Carter</td>
+            <td>johncarter@mail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Peter Parker</td>
+            <td>peterparker@mail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>John Rambo</td>
+            <td>johnrambo@mail.com</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>aniket</td>
+            <td>aniket@yahoo.com</td>
+        </tr>
+    </table>
+
+    <form action="url" method="http method">
+        <p>👇Example of form tag👇</p>
+        <label for="name">Name :</label>
+        <input type="text" placeholder="name" name="name">
+        <label for="surname">Surname :</label>
+        <input type="text" placeholder="surname">
+        <textarea name="message" cols="30" rows="2"></textarea>
+        <button type="submit">send</button>
+    </form>
+
+    <div>
+        <p>👇Example of detail & summary tags👇</p>
+        <details>
+            <summary>What is HTML?</summary>
+            <p>HTML is a markup language for describing the structure of web pages.</p>
+            <img src="/horse image.jpg" alt="">
+        </details>
+        <details>
+            <summary>What is CSS?</summary>
+            <p>Cascading Style Sheet for styling wep pages</p>
+        </details>
+        <details>
+            <summary>Making an api</summary>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <img src="horse image.jpg" alt="">
+            <a href="">register now</a>
+        </details>
+    </div>
+
+    <div>
+        <p>👇Example of select , optgroup , option tags👇</p>
+        <select>
+            <option value="ferrari">Ferrari</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="bentley">Bentley</option>
+            <option value="">audi</option>
+        </select>
+
+        <select>
+            <optgroup label="junk cars">
+                <option value="ferrari">Ferrari</option>
+                <option value="lamborghini">Lamborghini</option>
+            </optgroup>
+            <optgroup label="Luxury cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="bentley">Bentley</option>
+            </optgroup>
+            <optgroup label="sports cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="bentley">Bentley</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div>
+        <p>👇Example of text - formatting tags👇</p>
+        <p>Lorem ipsum <del>dolor</del> - del tag</p>
+        <p>Lorem ipsum <b>dolor</b> - b tag</p>
+        <p>Lorem ipsum <em>dolor</em> - em tag</p>
+        <p>Lorem ipsum <i>dolor</i> - i tag</p>
+        <p>Lorem ipsum <mark>dolor</mark> - mark tag</p>
+        <p>Lorem ipsum <q>dolor</q> - q tag</p>
+        <p>Lorem ipsum <s>dolor</s> - s tag</p>
+        <p>Lorem ipsum <small>dolor</small> - small tag</p>
+        <p>Lorem ipsum <strong>dolor</strong> - strong tag</p>
+        <p>Lorem ipsum <sub>dolor</sub> - sub tag</p>
+        <p>log<sub>10</sub>x</p>
+        <p>x<sup>2</sup> + y <sup>3</sup></p>
+        <p>Lorem ipsum <sup>dolor</sup> - sup tag</p>
+        <p>Lorem ipsum <u>dolor</u> - u tag</p>
+    </div>
+
+    <div>
+        <pre>
+            <p>👇Example of pre tags👇</p>
+            <p>This element is commonly used to preserves spaces, line breaks, tabs, and other formatting characters in source markup that web browsers would otherwise ignore.</p>
+            hello
+                how are you ??
+                                nothing else
+                        wanna meet ??
+        </pre>
+    </div>
+
+    <div>
+        <p>this is <br> example tecxt</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, eligendi?</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, deleniti.</p>
+        <p>👇Example of br & hr tags👇</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto quam <br> placeat provident quo
+        inventore vel quaerat rerum aperiam soluta porro distinctio dignissimos doloribus, velit eius vitae, sunt ipsam
+        explicabo! Excepturi voluptates, tempore commodi similique non, aliquam dignissimos expedita saepe, vero at
+        beatae consequatur consectetur cum vel quos cupiditate unde impedit vitae quam dicta numquam assumenda! Harum,
+        <hr> excepturi quia reiciendis quibusdam voluptates at corporis eum debitis nostrum asperiores similique
+        explicabo, velit ab dolorem laboriosam distinctio exercitationem numquam, placeat suscipit. Nostrum inventore
+        rem vero. Quisquam, obcaecati maxime! Quos placeat porro doloremque corrupti quaerat, vel minima ipsum?
+        Doloremque dicta soluta minus praesentium.
+    </div>
+
+    <div style="background-color: beige;">
+        <p>Example of wrapper elements</p>
+        <header style="background-color: bisque;text-align: center; padding: 5rem 1rem;">
+            this message is inside header tag
+            <nav style="background-color: brown; padding: 2rem 1rem; border-radius: 1rem;">this message is inside nav
+                tag</nav>
+        </header>
+        <main style="padding: 15rem 1rem; text-align: center; background-color: chartreuse; ">
+            this message is inside main tag
+            <section
+                style="background-color: coral; text-align: center; padding:2rem 1rem; border-radius: 1rem; margin: 1rem;">
+                Section one Lorem ipsum dolor sit amet.
+            </section>
+            <section
+                style="background-color: coral; text-align: center; padding:2rem 1rem; border-radius: 1rem; margin: 1rem;">
+                Section two Lorem ipsum dolor sit amet.
+            </section>
+            <section
+                style="background-color: coral; text-align: center; padding:2rem 1rem; border-radius: 1rem; margin: 1rem;">
+                Section three Lorem ipsum dolor sit amet.
+            </section>
+        </main>
+        <footer style="background-color: darkslategrey; padding: 5rem 1rem; text-align: center; ">
+            this message is inside footer tag
+            <section>
+                jshdks
+            </section>
+            <section>
+                jscjc
+            </section>
+        </footer>
+    </div>
+
+
+    <table border="1">
+        <thead>
+            <th>name</th>
+            <th>surname</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>om</td>
+                <td>jannu</td>
+            </tr>
+            <tr>
+                <td>aniket</td>
+                <td>parate</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <form action="/api">
+        <input type="text" name="fname" placeholder="first name">
+        <input type="text" name="lname" placeholder="last name">
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+
+</html>

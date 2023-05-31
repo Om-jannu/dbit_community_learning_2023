@@ -5,71 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arrays</title>
 </head>
 
 <body>
-    <p id="ptag">ans</p>
-    <h1>try console logging in</h1>
 
-    
+    <h1>Demonstration of writing html content using javascript</h1>
+    <p>document.write("<span>Hello World</span>");</p>
     <script>
-        var array = ["hello","world",25,"dbit",true];
-        var arr2 = ["hello",[1,2,3,4,5],"world",true,"false"];
-        console.log(array.length);
-        console.log(arr2[3]);
-
-        let ptag = document.getElementById("ptag");
-
-        var arr1 = ["value1",'value2',25,23,90,true,false];
-        arr1.toString;
-        console.log(arr1);
-
-        var arr2 = ["om",'jannu',[1,2,3,4,5],[true,false]];
-        console.log(arr2.length);
-
-        ptag.innerText = arr2[2][2];
-
-
-        document.write("<h1>Hello World</h1>");
+        document.write("<p>Hello World</p>");
+    </script>
+    <h1>Demonstration of for loop</h1>
+    <pre>
         for (let i = 0; i < 5; i++) {
-            document.write("<h1> World</h1>");
+            document.write("<span> World</span>");
+        }
+    </pre>
+    <script>
+        for (let i = 0; i < 5; i++) {
+            document.write("<span> World</span>");
         }
         console.log(i);
+    </script>
+    <h1>Demonstration of while loop</h1>
+    <pre>
         let i = 0;
-        while (i < 10) {
-            document.write("<h1> World</h1>");
-            i++;
+        while (x < 5) {
+            document.write("<span> World</span>");
+            x++;
+        }
+    </pre>
+    <script>
+        let x = 0
+        while (x < 5) {
+            document.write("<span> World</span>");
+            x++;
         }
     </script>
-    <pre>
-        var array = ["hello","world",25,"dbit",true];
-        var arr2 = ["hello",[1,2,3,4,5],"world",true,"false"];
+    <h1>Demonstration of array in javascript </h1>
+    
+    <p>arr[2][2] = <span id="ptag"> ans</span></p>
+    <script>
+        var array = ["hello", "world", 25, "dbit", true];
+        var arr2 = ["hello", [1, 2, 3, 4, 5], "world", true, "false"];
         console.log(array.length);
         console.log(arr2[3]);
 
         let ptag = document.getElementById("ptag");
 
-        var arr1 = ["value1",'value2',25,23,90,true,false];
+        var arr1 = ["value1", 'value2', 25, 23, 90, true, false];
         arr1.toString;
         console.log(arr1);
 
-        var arr2 = ["om",'jannu',[1,2,3,4,5],[true,false]];
+        var arr2 = ["om", 'jannu', [1, 2, 3, 4, 5], [true, false]];
         console.log(arr2.length);
 
         ptag.innerText = arr2[2][2];
+    </script>
+    <pre>
+        var array = ["hello", "world", 25, "dbit", true];
+        var arr2 = ["hello", [1, 2, 3, 4, 5], "world", true, "false"];
+        console.log(array.length);
+        console.log(arr2[3]);
 
+        let ptag = document.getElementById("ptag");
 
-        document.write("<>Hello World</>");
-        for (let i = 0; i < 5; i++) {
-            document.write("<> World</>");
-        }
-        console.log(i);
-        let i = 0;
-        while (i < 10) {
-            document.write("<> World</>");
-            i++;
-        }
+        var arr1 = ["value1", 'value2', 25, 23, 90, true, false];
+        arr1.toString;
+        console.log(arr1);
+
+        var arr2 = ["om", 'jannu', [1, 2, 3, 4, 5], [true, false]];
+        console.log(arr2.length);
+
+        ptag.innerText = arr2[2][2];
     </pre>
 </body>
 
